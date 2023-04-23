@@ -29,3 +29,13 @@ Documentation
 
 Usage
 -----
+
+.. code-block:: python
+
+    >>> from iter_together import iter_together
+    >>> for a, b in iter_together([1, 2, 3], [4, 5, 6]):
+    ...     print(a, b)
+    ...
+    1 4
+    2 5
+    3 6
