@@ -6,6 +6,10 @@
 Welcome to iter-together-pma's documentation!
 =============================================
 
+.. automodule:: iter_together_pma
+
+
+
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
