@@ -14,6 +14,8 @@ Welcome to iter-together-pma's documentation!
    :maxdepth: 2
    :caption: Contents:
 
+   utils
+
 
 
 Indices and tables
