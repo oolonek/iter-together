@@ -2,9 +2,10 @@
 
 """Utilities for``iter-together``."""
 
+
 def iter_together(path_left: str, path_right: str):
-    """Open the two files, iterate over them, and zip the together.
-    
+    """Open two files, iterate over them, and zip the together.
+
     :param path_left: The path to the left CSV file.
     :param path_right: The path to the right CSV file.
     """
@@ -13,4 +14,3 @@ def iter_together(path_left: str, path_right: str):
             left_idx, left_value = left_line.strip().split(',')
             right_idx, right_value = right_line.strip().split(',')
             yield left_idx, left_value, right_value
-            

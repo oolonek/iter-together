@@ -2,4 +2,4 @@
 
 """A package helping you iterate through parallel files."""
 
-FOO = 'bar'
+from .utils import iter_together_pma  # noqa: F401

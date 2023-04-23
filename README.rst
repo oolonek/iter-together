@@ -26,3 +26,6 @@ Testing
 
 Documentation
 -------------
+
+Usage
+-----
