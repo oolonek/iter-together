@@ -1,10 +1,12 @@
 import unittest
 import iter_together
-
 from tests.constants import F1_PATH, F2_PATH
 
 class TestIterTogether(unittest.TestCase):
     """Tests for iter_together package."""
+    
+    def setUp(self) -> None:
+        self.constant1 = 5
     
     def test_iter_together(self):
         """Test that two files can iterate together."""
@@ -19,3 +21,5 @@ class TestIterTogether(unittest.TestCase):
         self.assertLess(0, len(result))
         self.assertEqual(expected, result)
         
+    def test_failure_on_bad_keys(self):
+        """_summary_"""
