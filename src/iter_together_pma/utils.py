@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-"""The API for ``iter_together``."""
+"""Utilities for``iter-together``."""
 
 def iter_together(path_left: str, path_right: str):
     """Open the two files, iterate over them, and zip the together.
