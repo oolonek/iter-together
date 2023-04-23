@@ -3,7 +3,7 @@
 """Tests for ``iter-together``."""
 
 import unittest
-from iter_together_pma import utils
+from iter_together_pma import iter_together
 from tests.constants import F1_PATH, F2_PATH
 
 class TestIterTogether(unittest.TestCase):
@@ -20,7 +20,7 @@ class TestIterTogether(unittest.TestCase):
             ('c', 'c_1', 'c_2'),
             ('d', 'd_1', 'd_2'),
         ]
-        result = list(utils.iter_together(F1_PATH, F2_PATH))
+        result = list(iter_together(F1_PATH, F2_PATH))
         self.assertIsNotNone(result)
         self.assertLess(0, len(result))
         self.assertEqual(expected, result)
